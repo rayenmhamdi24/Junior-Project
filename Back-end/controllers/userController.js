@@ -23,11 +23,9 @@ const login= async(req,res)=>{
    })
    res.json({message:"Looed in successfully!", token})
 }
-const logout=(req,res)=>{
-  res.json({message:"logged out successfully"})
-}
+
 module.exports={
   register,
   login,
-  logout
+  
 }
